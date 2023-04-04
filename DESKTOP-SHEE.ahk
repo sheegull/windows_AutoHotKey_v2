@@ -38,3 +38,6 @@ F11::Send "{Volume_Down}"
 F12::Send "{Volume_Up}"
 
 ; win(ctrlに変換している) + q > すべてのタブを閉じる
+
+; CapsLock + [ > esc
+sc03A & [::Send "{Esc}"
